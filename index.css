@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  font-family: 'Montserrat', sans-serif;
 }
 .year {
   color: red;
@@ -18,7 +19,8 @@ section {
   width: 100%;
   text-align: center;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 60px;
   justify-content: center;
   background: url('src/img/truck.jpg');
   background-repeat: no-repeat;
