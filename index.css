@@ -22,20 +22,24 @@ section {
   align-items: flex-start;
   padding-top: 60px;
   justify-content: center;
-  background: url('src/img/truck.jpg');
   background-repeat: no-repeat;
   background-size: content;
   background-position: center;
   flex-grow: 1;
-  color: white;
-  text-transform: uppercase;
+}
+
+.main-div {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .link-flux {
-  color: white;
+  margin-top: 20px;
+  color: black;
 }
 .link-flux:visited {
-  color: white;
+  color: black;
 }
 .link-flux:hover {
   font-size: 1.3em;
