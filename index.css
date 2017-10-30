@@ -49,3 +49,11 @@ footer {
   text-align: center;
   width: 100%;
 }
+
+.download-guide {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-top: 200px;
+  padding: 20px;
+}
